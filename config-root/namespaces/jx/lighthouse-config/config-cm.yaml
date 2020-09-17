@@ -60,7 +60,7 @@ data:
         - needs-rebase
         repos:
         - jstrachan/jx3-demo-kubernetes3
-      target_url: http://deck-jx.
+      target_url: http://deck-jx.104.199.96.126.nip.io
 kind: ConfigMap
 metadata:
   creationTimestamp: null
