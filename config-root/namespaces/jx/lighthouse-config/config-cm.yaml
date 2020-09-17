@@ -60,9 +60,11 @@ data:
         - needs-rebase
         repos:
         - jstrachan/jx3-demo-kubernetes3
-      target_url: http://deck-jx.104.199.96.126.nip.io
+      target_url: http://deck-jx.
 kind: ConfigMap
 metadata:
   creationTimestamp: null
   name: config
   namespace: jx
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
